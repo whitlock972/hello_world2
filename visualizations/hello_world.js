@@ -70,10 +70,10 @@ looker.plugins.visualizations.add({
   
       // Set the size to the user-selected size
       if (config.font_size == "small") {
-        this._textElement.className = "hello-world-text-small";}
-        if(config.font_size == "crazy small") {
-        this._textElement.className = "hello-world-text-crazy-small";}
-       else {
+        this._textElement.className = "hello-world-text-small";
+        if(config.font_size == "crazy small") 
+        this._textElement.className = "hello-world-text-crazy-small";
+       else 
         this._textElement.className = "hello-world-text-large";
       }
   
