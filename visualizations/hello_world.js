@@ -69,13 +69,15 @@ looker.plugins.visualizations.add({
       this._textElement.innerHTML = LookerCharts.Utils.htmlForCell(firstCell);
   
       // Set the size to the user-selected size
-      if (config.font_size == "small") {
+      if (config.font_size == "small") 
         this._textElement.className = "hello-world-text-small";
-        if(config.font_size == "crazy small") 
+
+       else if(config.font_size == "crazy small") 
         this._textElement.className = "hello-world-text-crazy-small";
+
        else 
         this._textElement.className = "hello-world-text-large";
-      }
+      
   
     }
   });
