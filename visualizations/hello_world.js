@@ -62,6 +62,7 @@ looker.plugins.visualizations.add({
       }
   
       // Grab the first cell of the data
+      console.log(data);
       var firstRow = data[0];
       var firstCell = firstRow[queryResponse.fields.dimensions[0].name];
   
